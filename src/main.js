@@ -6,8 +6,8 @@ const xObject = JSON.parse(x);
 const hashMap = xObject || [
     {logo:'B',logoType:'text',url:'https://www.bilibili.com'},
     {logo:'I',logoType:'text',url:'https://www.iqiyi.com'},
-    {logo:'S',logoType:'text',url:'https://tv.sohu.com/tv_21.shtml'},
-    {logo:'T',logoType:'text',url:'https://v.qq.com'},
+    {logo:'T',logoType:'text',url:'https://tv.sohu.com/tv_21.shtml'},
+    {logo:'V',logoType:'text',url:'https://v.qq.com'},
     {logo:'Y',logoType:'text',url:'https://www.youku.com'}
 ];
 

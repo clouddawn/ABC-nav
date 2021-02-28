@@ -133,11 +133,11 @@ var hashMap = xObject || [{
   logoType: 'text',
   url: 'https://www.iqiyi.com'
 }, {
-  logo: 'S',
+  logo: 'T',
   logoType: 'text',
   url: 'https://tv.sohu.com/tv_21.shtml'
 }, {
-  logo: 'T',
+  logo: 'V',
   logoType: 'text',
   url: 'https://v.qq.com'
 }, {
@@ -225,7 +225,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50718" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52134" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
