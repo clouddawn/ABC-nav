@@ -62,7 +62,9 @@ body {
     padding: 0 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    outline-color: rgba(78, 110, 242, 1);
 }
+
 .searchForm > button {
     white-space: nowrap;
     padding: 0 28px;

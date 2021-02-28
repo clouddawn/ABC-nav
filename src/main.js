@@ -18,6 +18,8 @@ const simplifyUrl = (url) => {
         .replace(/\/.*/,'');//删除 / 开头的内容
 }
 
+
+
 const render = ()=>{
     $siteList.find('li:not(.last)').remove();
     hashMap.forEach((node,index)=>{
