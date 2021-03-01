@@ -74,11 +74,22 @@ window.onbeforeunload = ()=>{
     localStorage.setItem('x',string);
 };
 
+let isInputing = false;
+$("#searchContent").focus(()=>{
+    isInputing = true;
+});
+$("#searchContent").blur(()=>{
+    isInputing = false;
+});
 $(document).on('keypress',(e)=>{
-    const {key} = e;  //const key = e.key的简写
-    for(let i=0; i<hashMap.length; i++){
-        if(hashMap[i].logo.toLowerCase() === key){
-            window.open(hashMap[i].url);
+    if(isInputing === false){
+        const {key} = e;  //const key = e.key的简写
+        for(let i=0; i<hashMap.length; i++){
+            if(hashMap[i].logo.toLowerCase() === key){
+                window.open(hashMap[i].url);
+            }
         }
     }
 });
+
+
