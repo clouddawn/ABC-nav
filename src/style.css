@@ -60,6 +60,7 @@ body {
     margin-right: 10px;
     height: 40px;
     padding: 0 10px;
+    border: solid 1px #ddd;
     border-radius: 4px;
     outline-color: rgba(78, 110, 242, 1);
 }
